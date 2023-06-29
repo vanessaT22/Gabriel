@@ -1,0 +1,218 @@
+*{
+    scroll-behavior: smooth;
+    scroll-margin-block-start: 190px;
+}
+body {
+	margin:0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    
+background-position: center;
+    background-attachment: fixed;
+    background-color: grey;
+}
+
+.center3{
+    
+    margin-left: auto;
+    margin-right: auto;
+    align-content: baseline;
+    display: block;
+    width: 130px;
+    height: 110px;
+}
+img {
+    height: 410px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.center2{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: 15%
+}
+.centrado{text-align:center;border:1px dotted #000; padding:8px;}
+
+.center{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90%;
+    height: 125%
+}
+
+.separador{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: 7%
+}
+.grid_clic{
+    display: grid;
+    /*grid-gap: 0px;*/
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    font-size: 5px;
+    text-align: center;
+}
+.separador2{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: 2%
+}
+.grid_tex{
+    display: grid;
+    /*grid-gap: 0px;*/
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+}
+.grid_fecha{
+    display: grid;
+    /*grid-gap: 0px;*/
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.grid_titulo{
+    display: grid;
+    /*grid-gap: 0px;*/
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+}
+.grid_titulo2{
+    display: grid;
+    /*grid-gap: 0px;*/
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.letras{
+    font-family: 'Charm', cursive;
+font-family: 'Rokkitt', serif;
+    font-size: 65px;
+text-align:center; 
+        padding:8px;
+}
+
+.letrasN{
+    font-family: 'Allura', cursive;
+    font-size: 60px;
+text-align:center; 
+        padding:8px;
+    color: rgb(104, 109, 41);
+    text-shadow: 1px 1px #fff;
+}
+
+.general{
+    font-family: 'Charm', cursive;
+font-family: 'Rokkitt', serif;
+    font-size: 20px;
+text-align:center; 
+        padding:8px;
+}
+.grid_nombre{
+    display: grid;
+    /*grid-gap: 0px;*/
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.grid_titulo2{
+    display: grid;
+    /*grid-gap: 0px;*/
+    color: rgb(0, 0, 0);
+    font-family: serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.iglesia{
+    margin-left: auto;
+margin-right: auto;
+display: block;
+width: 60%;
+height: 95%
+}
+.salon{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: 95%
+}
+.boton {
+    border: 1px solid #ffffff; /*anchura, estilo y color borde*/
+    padding: 5px; /*espacio alrededor texto*/
+    background-color: #7c8d2ebf; /*color botón*/
+    color: #f4f4f5; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    font-size: 15px;
+    border-radius: 100px; /*bordes redondos*/
+    }
+  
+
+
+#footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	
+}
+	#footer p {
+		margin: 0;
+	}
+	
+	#footer a {
+		color: white;
+	}
+
+    .cajaRoja{
+        background-image: url(logo.jpg);
+        background-position: center center;
+        /*float: right;*/
+        clear:both;
+        width: 100%px;
+        height: 2px;
+        padding: 30px;
+    }
+    .nombre{
+        background-image: url(n1.png);
+        
+        /*float: right;*/
+        clear:both;
+        width: 200px;
+        height: 171px;
+        /*
+        width: 400px;
+        height: 400px;*/
+        background-position: center center;
+        
+    }
+    
+   
